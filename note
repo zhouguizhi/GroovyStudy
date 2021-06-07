@@ -1,1 +1,12 @@
-1:在groovy中都是duix,没有基础类型,比如定义一个int x,它打印出来的类型都是Integer包装类型
+1:在groovy中都是对象,没有基础类型,比如定义一个int x,它打印出来的类型都是Integer包装类型
+int x = 9
+println(x.class)
+
+2: 在groovy中声明变量可以使用java一样的语法,这是强类型 在groovy还可以使用def关键字来声明变量, 这是弱类型, 具体变量是什么类型, 是由其变量类型绝地个
+def nikeName = "guizhi"
+println nikeName
+
+nikeName = 1
+println nikeName
+
+3:
